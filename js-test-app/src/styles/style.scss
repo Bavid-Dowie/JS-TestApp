@@ -1,0 +1,24 @@
+.test-app {
+  background: black;
+  color: silver;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+.test-component {
+  header  {
+    justify-content: center;
+    h1 {
+      background: skyblue;
+      color: darkgreen;
+      display: inline-block;
+      font-size: 3em;
+      margin: 0;
+      padding: 7.5vh 5vw;
+      text-align: left;
+      width: 100vw;
+    }
+  }
+}

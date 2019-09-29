@@ -1,0 +1,79 @@
+
+  img   {
+    float: left;
+    width: 40vw;
+    margin-top: 6vh;
+    margin-left: 5vw;
+  }
+  .ex-copy  {
+    display: grid;
+    float: right;
+    width: 38vw;
+    height: 46vh;
+    margin-top: 6vh;
+    margin-right: 5vw;
+    background: white;
+    grid-template-areas:
+      'top top'
+      'mid mid'
+      'bot bot';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    border: 20px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+        .top {
+          grid-area: top;
+          background: #424242;
+          border-radius: 4px;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          -ms-border-radius: 4px;
+          -o-border-radius: 4px;
+          margin-bottom: 13px;
+          h3 {
+            color: white;
+            font-weight: 400;
+          }
+}
+        .mid {
+          grid-area: mid;
+          background: white;
+          border: 1px solid #e2e2e2;
+          box-shadow: 0px 3px 2px -2px rgba(0,0,0,.15);
+            -webkit-box-shadow: 0px 3px 2px -2px rgba(0,0,0,.15);
+            -moz-box-shadow: 0px 3px 2px -2px rgba(0,0,0,.15);
+          .tracker  {
+            height: 6%;
+            width: 80%;
+            background: #f25e32;
+            border-bottom: 1px solid #e2e2e2;
+          }
+          .tracker-fill  {
+            width: 20%;
+            float: right;
+            border-bottom: 1px solid #e2e2e2;
+          }
+        }
+        .bot {
+          display: grid;
+          grid-area: bot;
+          // border-top: 10px solid white;
+          grid-template-columns: 4fr 20px 4fr;
+          button {
+            background: #fafafa;
+            color: #787878;
+            box-shadow: 0px 3px 2px -2px rgba(0,0,0,.3);
+              -webkit-box-shadow: 0px 3px 2px -2px rgba(0,0,0,.3);
+              -moz-box-shadow: 0px 3px 2px -2px rgba(0,0,0,.3);
+            font-size: 17px;
+            font-weight: 600;
+            border: 1px solid #e2e2e2;
+            margin: 18px 0 0 0;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+          }
+        }
+  }
