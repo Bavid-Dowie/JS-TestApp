@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Calculator from './Calculator';
 
 class Test extends Component {
   render() {
@@ -6,9 +7,10 @@ class Test extends Component {
       <div className='test-component'>
         <header>
           <h1>Header</h1>
+          <Calculator />
         </header>
       </div>
-    );
+    )
   }
 }
 
